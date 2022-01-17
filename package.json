@@ -4,13 +4,13 @@
   "description": "[![Actions Status](https://github.com/Tati92-L/frontend-project-lvl2/workflows/hexlet-check/badge.svg)](https://github.com/Tati92-L/frontend-project-lvl2/actions)",
   "main": "src/index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "node --experimental-vm-modules node_modules/jest/bin/jest.js"
   },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/Tati92-L/frontend-project-lvl2.git"
   },
-  "author": "",
+  "author": "Tatiana Liashenko",
   "license": "ISC",
   "bugs": {
     "url": "https://github.com/Tati92-L/frontend-project-lvl2/issues"
@@ -18,18 +18,20 @@
   "homepage": "https://github.com/Tati92-L/frontend-project-lvl2#readme",
   "dependencies": {
     "commander": "^8.3.0",
+    "eslint-plugin-jest": "^25.7.0",
     "fs": "^0.0.1-security",
     "lodash": "^4.17.21",
     "path": "^0.12.7",
     "readline-sync": "^1.4.10"
   },
-  "type":"module",
+  "type": "module",
   "bin": {
     "gendiff": "bin/gendiff.js"
   },
   "devDependencies": {
     "eslint": "^8.6.0",
     "eslint-config-airbnb-base": "^15.0.0",
-    "eslint-plugin-import": "^2.25.4"
+    "eslint-plugin-import": "^2.25.4",
+    "jest": "^27.4.7"
   }
 }

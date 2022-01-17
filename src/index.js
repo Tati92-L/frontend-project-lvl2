@@ -17,12 +17,12 @@ const genDiff = (filepath1, filepath2) => {
       const item2 = `${key}: ${f2}`;
 
       if (_.has(file1, key) && _.has(file2, key)) {
-        const full = [`  + ${item1}`, `  + ${item2}`];
+        const full = [`  - ${item1}`, `  + ${item2}`];
         item = f1 === f2 ? `    ${item1}` : full;
       } else if (_.has(file1, key)) {
         item = `  - ${item1}`;
       } else if (_.has(file2, key)) {
-        item = `  - ${item2}`;
+        item = `  + ${item2}`;
       }
       return item;
     })

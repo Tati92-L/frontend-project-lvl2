@@ -1,14 +1,22 @@
+plugins:
+  # https://github.com/jest-community/eslint-plugin-jest
+  - jest
+
 env:
   browser: true
   es2021: true
+  jest/globals: true
 extends:
   - airbnb-base
 parserOptions:
   ecmaVersion: 13
   sourceType: module
 rules:
- no-console: 0
- import/extensions: 
+  no-console: 0
+  no-unused-expressions: 0
+  no-underscore-dangle: [2, { "allow": ["__filename", "__dirname"] }]
+  import/extensions: 
     - error
     - ignorePackages
     - js: always
+  
