@@ -17,16 +17,15 @@ jobs:
         with:
           node-version: ${{ matrix.node-version }}
       - name: npm install
-        run: |
-          make install
+        run: make install
         env:
           CI: true
       - name: Run linter
-        run: |
-          make lint
-      # - name: Test & publish code coverage
-      #   uses: paambaati/codeclimate-action@v2.7.5
-      #   env:
-      #     CC_TEST_REPORTER_ID: ${{ secrets.CC_TEST_REPORTER_ID }}
-      #   with:
-      #     coverageCommand: npm run coverage
+        run: make lint
+      - name: Test & publish code coverage
+        uses: paambaati/codeclimate-action@v2.7.4
+        env:
+          CODECLIMATE_KEY: ${{ secrets.CODECLIMATE_KEY }}
+        with:
+          coverageCommand: make test-coverage
+          debug: true
