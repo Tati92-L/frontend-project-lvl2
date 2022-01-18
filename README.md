@@ -3,6 +3,11 @@
 [![Maintainability](https://api.codeclimate.com/v1/badges/a99a88d28ad37a79dbf6/maintainability)](https://codeclimate.com/github/codeclimate/codeclimate/maintainability)
 [![Linter](https://github.com/Tati92-L/frontend-project-lvl2/actions/workflows/nodejs.yml/badge.svg)](https://github.com/Tati92-L/frontend-project-lvl2/actions/workflows/nodejs.yml) 
 [![Test Coverage](https://api.codeclimate.com/v1/badges/a99a88d28ad37a79dbf6/test_coverage)](https://codeclimate.com/github/codeclimate/codeclimate/test_coverage)
-### GenDiff function
-[![asciicast](https://asciinema.org/a/HrJdpD0EsIeS7DiRlJy2x5E2R.svg)](https://asciinema.org/a/HrJdpD0EsIeS7DiRlJy2x5E2R)
+### GenDiff function (.json)
+[![asciicast](    https://asciinema.org/a/VXwvI7cQiNQI8EVAB6tZVGCKw.svg)](https://asciinema.org/a/VXwvI7cQiNQI8EVAB6tZVGCKw)
+### GenDiff function (.yaml, .yml)
+[![asciicast](https://asciinema.org/a/Q0CmZeUGlgySVSdJ1JOGSxoxm.svg)](https://asciinema.org/a/Q0CmZeUGlgySVSdJ1JOGSxoxm)
+
+    
+
 
