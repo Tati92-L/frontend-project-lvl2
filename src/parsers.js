@@ -9,6 +9,6 @@ export default (data, format) => {
     case '.yml':
       return yaml.load(data);
     default:
-      throw new Error(`Формат не поддерживается: ${format}`);
+      throw new Error(`Формат ${format} не поддерживается`);
   }
 };
