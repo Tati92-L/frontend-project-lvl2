@@ -7,7 +7,5 @@
 [![asciicast](    https://asciinema.org/a/VXwvI7cQiNQI8EVAB6tZVGCKw.svg)](https://asciinema.org/a/VXwvI7cQiNQI8EVAB6tZVGCKw)
 ### GenDiff function (.yaml, .yml)
 [![asciicast](https://asciinema.org/a/Q0CmZeUGlgySVSdJ1JOGSxoxm.svg)](https://asciinema.org/a/Q0CmZeUGlgySVSdJ1JOGSxoxm)
-
-    
-
-
+### Nested objects
+[![asciicast](https://asciinema.org/a/NycJjoDS0lbbiHPsiKqBpKx17.svg)](https://asciinema.org/a/NycJjoDS0lbbiHPsiKqBpKx17)

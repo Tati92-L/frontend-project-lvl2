@@ -26,7 +26,7 @@ const stylish = (innerTree) => {
       case 'nested':
         return `${indent(depth)}  ${node.key}: {\n${iter(node.children, depth + 1).join('')}${indent(depth)}  }\n`;
       default:
-        throw new Error(`Этого типа не существует: ${node.type}`);
+        throw new Error(`Типа ${node.type} не существует: `);
     }
   });
   return `{\n${iter(innerTree, 1).join('')}}`;
