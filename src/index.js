@@ -2,7 +2,7 @@ import fs from 'fs';
 import path from 'path';
 import parsers from './parsers.js';
 import funcDiff from './nestedObjDiff.js';
-import stylish from './stylish.js';
+import formater from '../formatters/index.js';
 
 const genDiff = (filepath1, filepath2, format = 'stylish') => {
   const data1 = fs.readFileSync(path.resolve(process.cwd(), '__fixtures__', filepath1), 'utf-8');
@@ -14,8 +14,6 @@ const genDiff = (filepath1, filepath2, format = 'stylish') => {
   const file1 = parsers(data1, format1);
   const file2 = parsers(data2, format2);
 
-  const result = funcDiff(file1, file2);
-  console.log(format);
-  return stylish(result);
+  return formater(funcDiff(file1, file2), format);
 };
 export default genDiff;

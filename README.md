@@ -9,3 +9,6 @@
 [![asciicast](https://asciinema.org/a/Q0CmZeUGlgySVSdJ1JOGSxoxm.svg)](https://asciinema.org/a/Q0CmZeUGlgySVSdJ1JOGSxoxm)
 ### Nested objects
 [![asciicast](https://asciinema.org/a/NycJjoDS0lbbiHPsiKqBpKx17.svg)](https://asciinema.org/a/NycJjoDS0lbbiHPsiKqBpKx17)
+### Stylish and plain formats
+[![asciicast](https://asciinema.org/a/9p2NZtxhn7dPCmlbqiJYgP5wF.svg)](https://asciinema.org/a/9p2NZtxhn7dPCmlbqiJYgP5wF)
+
