@@ -7,6 +7,8 @@ export default (innerTree, format) => {
       return stylish(innerTree);
     case 'plain':
       return plain(innerTree);
+    case 'json':
+      return JSON.stringify(innerTree);
     default:
       throw new Error(`Формат ${format} не поддерживается`);
   }
