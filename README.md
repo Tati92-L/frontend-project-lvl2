@@ -10,5 +10,5 @@
 ### Nested objects
 [![asciicast](https://asciinema.org/a/NycJjoDS0lbbiHPsiKqBpKx17.svg)](https://asciinema.org/a/NycJjoDS0lbbiHPsiKqBpKx17)
 ### Stylish and plain formats
-[![asciicast](https://asciinema.org/a/9p2NZtxhn7dPCmlbqiJYgP5wF.svg)](https://asciinema.org/a/9p2NZtxhn7dPCmlbqiJYgP5wF)
+[![asciicast](https://asciinema.org/a/sW5qj5vgkXQqdz0lGKgtjp2DG.svg)](https://asciinema.org/a/sW5qj5vgkXQqdz0lGKgtjp2DG)
 
